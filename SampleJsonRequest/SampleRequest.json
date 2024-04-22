@@ -1,0 +1,14 @@
+To Add the student Details:-
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "dateOfBirth": "2000-01-01",
+  "address1": "123 Main Street",
+  "address2": "Apt 101",
+  "phoneNumber1": "123-456-7890",
+  "phoneNumber2": "987-654-3210",
+  "email": "john.doe@example.com"
+}
+
+
