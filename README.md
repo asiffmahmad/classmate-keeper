@@ -22,7 +22,7 @@ Classmate Keeper is a basic Spring Boot project implementing CRUD (Create, Read,
 Create a MySQL database named classmate_keeper.
 Configure database connection properties in src/main/resources/application.properties.
 
-3.** Build the Project:**
+3. **Build the Project:**
 bash
 Copy code
 mvn clean install
@@ -33,7 +33,7 @@ Run the Application:
 Once the application is running, you can access the CRUD operations through the provided RESTful API endpoints.
 Use tools like Postman or curl to interact with the API endpoints for managing student details.
 
-5.** API Endpoints**
+5. **API Endpoints**
 Create Student: POST /api/students
 Get Student by ID: GET /api/students/{id}
 Update Student: PUT /api/students/{id}
