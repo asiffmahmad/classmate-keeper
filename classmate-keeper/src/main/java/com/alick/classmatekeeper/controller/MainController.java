@@ -19,8 +19,40 @@ public class MainController {
 		
 	}
 	
-	@GetMapping("/add")
+	@PostMapping("/addStudent")
 	public String addSudentDetais() {
+		
+		return "working";
+		
+	}
+	
+	
+	
+	@PostMapping("/updateStudent")
+	public String updateSudentDetais() {
+		
+		return "working";
+		
+	}
+	
+	
+	@PostMapping("/deleteStudent")
+	public String deleteudentDetais() {
+		
+		return "working";
+		
+	}
+	
+	
+	@GetMapping("/viewStudentdetails")
+	public String viewSudentDetais() {
+		
+		return "working";
+		
+	}
+	
+	@GetMapping("/viewStudentdetails")
+	public String viewSudentDetaisById() {
 		
 		return "working";
 		
